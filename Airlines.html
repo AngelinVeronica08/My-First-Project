@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Airline Booking</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <h1> Air Swift</h1>
+  <nav>
+    <button onclick="showSection('search')">Search Flights</button>
+    <button onclick="showSection('login')">Login</button>
+  </nav>
+</header>
+
+<section id="search" class="active">
+  <h2>Search Flights</h2>
+  <input type="text" id="from" placeholder="From">
+  <input type="text" id="to" placeholder="To">
+  <input type="date" id="date">
+  <button onclick="searchFlights()">Search</button>
+
+  <div id="results"></div>
+</section>
+
+<section id="login">
+  <h2>User Login</h2>
+  <input type="text" placeholder="Username">
+  <input type="password" placeholder="Password">
+  <button>Login</button>
+</section>
+
+<section id="seats">
+  <h2>Select Your Seat</h2>
+  <div class="seat-container" id="seatContainer"></div>
+  <button onclick="confirmBooking()">Confirm Booking</button>
+</section>
+
+<section id="Gesture" class="Active">
+<h3>Book Non-Stop Direct Flights</h3>
+<p>Spend less time travelling and more time at your destination. Our nonstop  network connects India to destinations across Asia,
+Australia, Europe, the Middle East, North America, and more</p>
+
+<h3>Plan Your Trip </h3>
+<p>Ready, set, travel! You focus on the journey; we'll take care of the logistics.</P>
+  </section>
+ <footer class="footer">
+
+  <div class="footer-container">
+
+    <div class="footer-column">
+      <h3>ABOUT US</h3>
+      <ul>
+        <li>About Air Swift</li>
+        <li>Newsroom</li>
+        <li>Corporate Information</li>
+        <li>Safety</li>
+        <li>Tenders</li>
+        <li>Careers</li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h3>BOOK & MANAGE</h3>
+      <ul>
+        <li>Search Flights</li>
+        <li>Manage Booking</li>
+        <li>Flight Schedule</li>
+        <li>Cargo</li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h3>WHERE WE FLY</h3>
+      <ul>
+        <li>Route Map</li>
+        <li>Non-stop Flights</li>
+        <li>Partner Airlines</li>
+        <li>Popular Flights</li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h3>PREPARE TO TRAVEL</h3>
+      <ul>
+        <li>Baggage Guidelines</li>
+        <li>Airport Information</li>
+        <li>Travel Tips</li>
+        <li>Health Assistance</li>
+        <li>Travelling with Pets</li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h3>EXPERIENCE</h3>
+      <ul>
+        <li>At The Airport</li>
+        <li>In The Air</li>
+        <li>Our Fleet</li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h3>SUPPORT</h3>
+      <ul>
+        <li>Contact</li>
+        <li>FAQs</li>
+        <li>Grievance</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2026 Air Swift. All Rights Reserved.</p>
+  </div>
+
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
