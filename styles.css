@@ -1,8 +1,7 @@
 body {
   font-family: 'Times New Roman', Times, serif;
   margin: 0;
-  background: #f4f6f9;
-  background-image: url('images.jpg'); 
+  background-image: url('images.jpg') no-repeat centre centre; 
   background-size: cover;     
   background-repeat: no-repeat;
   background-position: center;
